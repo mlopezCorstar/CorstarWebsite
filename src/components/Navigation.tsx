@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Phone } from 'lucide-react';
 
-const LOGO_PATH = '/image.png';
+const LOGO_PATH = '/CorstarWebsite/image.png';
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
